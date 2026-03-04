@@ -6,7 +6,9 @@
   "author": "",
   "type": "commonjs",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "webtest":"npx playwright test --grep @web"
+  },
   "devDependencies": {
     "@playwright/test": "^1.58.1",
     "@types/node": "^25.1.0"

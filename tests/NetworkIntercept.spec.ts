@@ -1,5 +1,5 @@
 import { test, expect, request } from '@playwright/test'
-import { ApiUtils } from './Utils/Apiutils'
+import { ApiUtils } from '../Utils/Apiutils'
 import { json } from 'node:stream/consumers';
 
 let response1: any;

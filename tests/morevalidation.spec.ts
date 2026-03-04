@@ -1,7 +1,7 @@
 import {test,expect} from '@playwright/test'
 import { count } from 'node:console'
 
-test('test all partices method',async({page,browser})=>{
+test('test all partices method',{tag:['@smoke','@web']},async({page,browser})=>{
 
     await page.goto('https://rahulshettyacademy.com/AutomationPractice/')
     await expect(page.locator('#displayed-text')).toBeVisible()
